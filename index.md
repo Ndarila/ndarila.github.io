@@ -4,11 +4,11 @@ title: "James Ndarila"
 author_profile: true
 ---
 
-## Welcome!
+## 🚀 Welcome!
 
-Hi, I’m **James Ndarila** — an ICT specialist and Data Enthusiast passionate about digital literacy, analytics, and empowering communities with technology.
+Hi, I’m **James Ndarila** — an ICT specialist and Data & AI enthusiast passionate about analytics, machine learning, and building intelligent solutions.
 
-Currently advancing my skills in **Data and AI** through the Cyber Shujaa Programme. Check out my work and feel free to connect!
+I am currently advancing my skills through the **Cyber Shujaa Data & AI Program**, focusing on real-world machine learning, NLP, and data-driven systems.
 
 📄 [Download My Resume (PDF)](/assets/files/assets/James-Ndarila-CV.pdf)
 
@@ -16,9 +16,45 @@ Currently advancing my skills in **Data and AI** through the Cyber Shujaa Progra
 
 ## 🔧 Featured Projects
 
-- **Hotel Dashboard** – Power BI dashboard providing hotel business insights.
-- **Netflix Analysis** – Cleaned and visualized Netflix data with Python.
-- **Titanic EDA** – Exploratory analysis on the Titanic dataset.
+### Customer Churn Prediction
+Machine learning model to predict customer churn using classification algorithms.  
+🔗 https://github.com/Ndarila/customer-churn-prediction
+
+---
+
+### Netflix Data Wrangling & EDA
+Exploratory data analysis on Netflix dataset to identify content trends and insights.  
+🔗 https://github.com/Ndarila/netflix-data-wrangling-eda
+
+---
+
+### Deep Learning Projects
+Neural network models for classification and prediction tasks using deep learning.  
+🔗 https://github.com/Ndarila/deep-learning-projects
+
+---
+
+### NLP with Transformers
+Text classification and NLP tasks using BERT and HuggingFace Transformers.  
+🔗 https://github.com/Ndarila/nlp-transformers
+
+---
+
+### BERT Sentence Similarity
+Semantic similarity model using Sentence-BERT embeddings and cosine similarity.  
+🔗 https://github.com/Ndarila/bert-sentence-similarity
+
+---
+
+### MLOps Projects
+Machine learning pipelines, automation, and deployment workflows.  
+🔗 https://github.com/Ndarila/mlops-projects
+
+---
+
+### Data Scraping Project
+Web scraping automation and structured data extraction from websites.  
+🔗 https://github.com/Ndarila/data-scraping-project
 
 ---
 
