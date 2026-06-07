@@ -4,103 +4,95 @@ title: "James Ndarila"
 author_profile: true
 ---
 
-## 🚀 Welcome!
+# 🚀 James Ndarila
+### Data & AI Specialist | Machine Learning Engineer | Data Analyst | NLP Engineer
 
-Hi, I’m **James Ndarila** — an ICT Specialist and Data & AI Enthusiast focused on Machine Learning, NLP, and real-world data systems.
+I design and build **data-driven and AI-powered systems** that transform raw data into insights, predictions, and intelligent solutions.
 
-I am currently advancing my skills through the **Cyber Shujaa Data & AI Program**, building production-style ML and AI projects.
-
-📄 [Download My Resume (PDF)](/assets/files/assets/James-Ndarila-CV.pdf)
-
----
-
-## 🎯 What I Do
-
-I design and build end-to-end AI and data systems:
-
-- Machine Learning models for prediction and classification  
-- NLP systems using transformer architectures (BERT, HuggingFace)  
-- Data analysis, visualization, and storytelling  
-- MLOps workflows for automation and deployment  
-
-💡 Focus: Turning raw data into intelligent, production-ready solutions.
+I focus on end-to-end problem solving:
+**Data → Analysis → Modeling → Deployment → Insights**
 
 ---
 
-## 🛠 Technical Skills
+## 🧠 About Me
 
-- **Programming:** Python, SQL  
-- **Machine Learning:** Scikit-learn, XGBoost  
-- **Deep Learning:** TensorFlow, Keras, PyTorch  
-- **NLP:** BERT, Transformers, HuggingFace  
-- **Data Tools:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Tools:** Git, GitHub  
+I am a Data & AI specialist with hands-on experience building real-world machine learning and analytics projects in:
 
----
+- Predictive analytics and machine learning models
+- Data wrangling, cleaning, and visualization
+- Deep learning systems for classification tasks
+- NLP using BERT and transformer-based models
+- End-to-end AI/ML experimentation and evaluation
 
-## 🔧 Featured Projects (Live GitHub Portfolio)
-
-## 🔧 Featured Projects (Auto-Updating)
-
-<div id="projects">Loading projects...</div>
-
-<script>
-const username = "Ndarila";
-
-fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
-  .then(res => res.json())
-  .then(repos => {
-
-    const container = document.getElementById("projects");
-
-    // remove forks + limit to top 8 most relevant repos
-    const filtered = repos
-      .filter(r => !r.fork)
-      .sort((a, b) => b.stargazers_count - a.stargazers_count)
-      .slice(0, 8);
-
-    container.innerHTML = filtered.map(repo => `
-      <div style="
-        border:1px solid #ddd;
-        padding:15px;
-        margin-bottom:12px;
-        border-radius:10px;
-        transition:0.2s;
-      ">
-
-        <h3>🚀 <a href="${repo.html_url}" target="_blank">
-          ${repo.name}
-        </a></h3>
-
-        <p>${repo.description || "AI/ML project - no description yet"}</p>
-
-        <small>
-          ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count} | 🧠 ${repo.language || "Mixed"}
-        </small>
-
-      </div>
-    `).join("");
-  });
-</script>---
-
-## 📝 Latest Posts
-
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) – {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-{% else %}
-_No blog posts yet. Check back soon!_
-{% endif %}
+I enjoy turning **complex data into clear decisions and intelligent systems that solve real problems.**
 
 ---
 
-## 📫 Contact
+## 🔥 Featured Projects (Real-World AI/ML Portfolio)
 
-- GitHub: https://github.com/Ndarila  
-- Portfolio: https://ndarila.github.io  
-- LinkedIn: https://www.linkedin.com/in/james-ndarila-2185971a4  
+### 📉 Customer Churn Prediction
+Machine learning classification model that predicts customer churn and supports retention strategies.  
+🔗 https://github.com/Ndarila/customer-churn-prediction
 
 ---
 
-⭐ Built with passion for AI, Data Science, and real-world problem solving.
+### 🎬 Netflix Data Analysis (EDA)
+Exploratory data analysis uncovering trends in Netflix content using Python and visualization tools.  
+🔗 https://github.com/Ndarila/netflix-data-wrangling-eda
+
+---
+
+### 🤖 Deep Learning Projects
+Neural network models for classification and pattern recognition tasks.  
+🔗 https://github.com/Ndarila/deep-learning-projects
+
+---
+
+### 🧠 NLP with Transformers
+Text classification and NLP tasks using BERT and Hugging Face Transformers.  
+🔗 https://github.com/Ndarila/nlp-transformers
+
+---
+
+### 🔤 BERT Sentence Similarity
+Semantic similarity system using Sentence-BERT embeddings and cosine similarity.  
+🔗 https://github.com/Ndarila/bert-sentence-similarity
+
+---
+
+### ⚙️ MLOps Projects
+Machine learning pipelines, automation workflows, and deployment systems.  
+🔗 https://github.com/Ndarila/mlops-projects
+
+---
+
+### 🕷️ Data Scraping Project
+Automated web scraping and structured data extraction from websites.  
+🔗 https://github.com/Ndarila/data-scraping-project
+
+---
+
+## 📊 Skills Stack
+
+**Programming:** Python, SQL  
+**Data Analysis:** Pandas, NumPy, Power BI, Excel  
+**Machine Learning:** Scikit-learn, TensorFlow, Keras  
+**NLP:** Hugging Face, BERT, Transformers  
+**Tools:** Git, GitHub, Jupyter, VS Code  
+
+---
+
+## 🌍 Career Focus
+
+🎯 Data Analyst  
+🎯 AI/ML Engineer  
+🎯 NLP Engineer  
+🎯 Junior Data Scientist  
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: https://github.com/Ndarila
+- LinkedIn: https://www.linkedin.com/in/james-ndarila-2185971a4
+- Portfolio: https://ndarila.github.io
