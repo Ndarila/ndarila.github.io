@@ -40,45 +40,48 @@ I design and build end-to-end AI and data systems:
 
 ## 🔧 Featured Projects (Live GitHub Portfolio)
 
-### 🧠 Machine Learning & AI
+## 🔧 Featured Projects (Auto-Updating)
 
-- **Customer Churn Prediction**  
-Predict customer retention using ML classification models  
-👉 https://github.com/Ndarila/customer-churn-prediction  
+<div id="projects">Loading projects...</div>
 
-- **Deep Learning Projects**  
-Neural networks for image and prediction tasks  
-👉 https://github.com/Ndarila/deep-learning-projects  
+<script>
+const username = "Ndarila";
 
-- **NLP with Transformers**  
-BERT-based NLP models using HuggingFace  
-👉 https://github.com/Ndarila/nlp-transformers  
+fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
+  .then(res => res.json())
+  .then(repos => {
 
-- **BERT Sentence Similarity**  
-Semantic similarity using embeddings and cosine similarity  
-👉 https://github.com/Ndarila/bert-sentence-similarity  
+    const container = document.getElementById("projects");
 
----
+    // remove forks + limit to top 8 most relevant repos
+    const filtered = repos
+      .filter(r => !r.fork)
+      .sort((a, b) => b.stargazers_count - a.stargazers_count)
+      .slice(0, 8);
 
-### 📊 Data Analytics & Engineering
+    container.innerHTML = filtered.map(repo => `
+      <div style="
+        border:1px solid #ddd;
+        padding:15px;
+        margin-bottom:12px;
+        border-radius:10px;
+        transition:0.2s;
+      ">
 
-- **Netflix Data Wrangling & EDA**  
-Exploratory data analysis and visualization of Netflix data  
-👉 https://github.com/Ndarila/netflix-data-wrangling-eda  
+        <h3>🚀 <a href="${repo.html_url}" target="_blank">
+          ${repo.name}
+        </a></h3>
 
-- **Data Scraping Project**  
-Web scraping and structured data extraction  
-👉 https://github.com/Ndarila/data-scraping-project  
+        <p>${repo.description || "AI/ML project - no description yet"}</p>
 
----
+        <small>
+          ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count} | 🧠 ${repo.language || "Mixed"}
+        </small>
 
-### ⚙️ MLOps & Automation
-
-- **MLOps Projects**  
-ML pipelines, automation, and deployment workflows  
-👉 https://github.com/Ndarila/mlops-projects  
-
----
+      </div>
+    `).join("");
+  });
+</script>---
 
 ## 📝 Latest Posts
 
